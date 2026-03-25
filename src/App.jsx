@@ -1,6 +1,6 @@
 // src/App.jsx
 import React from 'react';
-import { HashRouter as Router, Routes, Route } from 'react-router-dom';
+import { Routes, Route } from 'react-router-dom';  // ✅ 不要导入 BrowserRouter
 
 // 导入所有页面
 import Home from './pages/Home';
@@ -15,7 +15,7 @@ import BusinessLoan from './pages/BusinessLoan';
 
 function App() {
   return (
-    <Router>
+  
       <Routes>
         <Route path="/" element={<Home />} />
         <Route path="/team" element={<Team />} />
@@ -27,7 +27,7 @@ function App() {
         <Route path="/services" element={<Services />} />
         <Route path="/contact" element={<Contact />} />
       </Routes>
-    </Router>
+   
   );
 }
 
