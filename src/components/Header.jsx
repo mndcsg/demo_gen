@@ -12,22 +12,22 @@ export const Header = ({ currentPage = 'home' }) => {
   }, []);
 
   const navItems = [
-    { name: 'Inicio', url: '/', key: 'home' },
+    { name: 'Inicio', url: '#/', key: 'home' },
     { 
       name: 'Servicios', 
-      url: '/services', 
+      url: '#/services', 
       key: 'services',
       hasDropdown: true,
       children: [
-        { name: 'Visión General de Servicios', url: '/services', key: 'services-overview' },
-        { name: 'Préstamos Personales', url: '/personal-loan', key: 'personal-loan' },
-        { name: 'Préstamos Empresariales', url: '/business-loan', key: 'business-loan' },
+        { name: 'Visión General de Servicios', url: '#/services', key: 'services-overview' },
+        { name: 'Préstamos Personales', url: '#/personal-loan', key: 'personal-loan' },
+        { name: 'Préstamos Empresariales', url: '#/business-loan', key: 'business-loan' },
       ]
     },
-    { name: 'Tecnología Innovadora', url: '/technology', key: 'technology' },
-    { name: 'Equipo Directivo', url: '/team', key: 'team' },
-    { name: 'Educación Financiera', url: '/knowledge', key: 'knowledge' },
-    { name: 'Responsabilidad Social', url: '/responsibility', key: 'responsibility' },
+    { name: 'Tecnología Innovadora', url: '#/technology', key: 'technology' },
+    { name: 'Equipo Directivo', url: '#/team', key: 'team' },
+    { name: 'Educación Financiera', url: '#/knowledge', key: 'knowledge' },
+    { name: 'Responsabilidad Social', url: '#/responsibility', key: 'responsibility' },
   ];
 
   const isActive = (key) => currentPage === key;

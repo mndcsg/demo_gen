@@ -109,7 +109,7 @@ export const Services = () => {
                 </ul>
                 <a 
                   className="inline-flex items-center gap-2 px-7 py-3.5 bg-navy-800 text-white rounded-lg font-semibold hover:bg-navy-700 transition-all duration-300 whitespace-nowrap self-start"
-                  href="/personal-loan"
+                  href="#/personal-loan"
                 >
                   Más información<i className="ri-arrow-right-line"></i>
                 </a>
@@ -145,7 +145,7 @@ export const Services = () => {
                 </ul>
                 <a 
                   className="inline-flex items-center gap-2 px-7 py-3.5 bg-navy-800 text-white rounded-lg font-semibold hover:bg-navy-700 transition-all duration-300 whitespace-nowrap self-start"
-                  href="/business-loan"
+                  href="#/business-loan"
                 >
                   Más información<i className="ri-arrow-right-line"></i>
                 </a>

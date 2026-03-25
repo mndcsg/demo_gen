@@ -107,7 +107,7 @@ export const BusinessLoan = () => {
             
               <a 
                 className="inline-flex items-center gap-2 px-8 py-4 border border-white/40 text-white rounded-lg font-medium hover:border-gold-400 hover:text-gold-400 transition-all duration-300 whitespace-nowrap"
-                href="/services"
+                href="#/services"
               >
                 Conozca la Visión General<i className="ri-arrow-right-line"></i>
               </a>

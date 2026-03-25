@@ -22,7 +22,7 @@ export const Home = () => {
           </>
         }
         subtitle="J&J Beyond cuenta con más de 18 años de experiencia en el sector financiero, con un sistema riguroso de gestión de riesgos y un equipo de servicio profesional, brindando soporte de financiamiento integral y confiable para clientes personales y empresariales."
-        ctaPrimary={{ text: 'Conozca nuestros servicios', link: '/services' }}
+        ctaPrimary={{ text: 'Conozca nuestros servicios', link: '#/services' }}
         backgroundImage={'./back.jpg'}
       />
 
@@ -73,14 +73,14 @@ export const Home = () => {
                 title: 'Préstamos Personales',
                 desc: 'Soluciones de financiamiento personal flexibles y diversas, cubriendo diversos escenarios de necesidades como consumo, vivienda y educación, respuesta rápida, profesionalismo durante todo el proceso.',
                 image: './11e3e03254eb0a4ba1b631e6522f84ef.jpg',
-                clickTo: '/personal-loan'
+                clickTo: '#/personal-loan'
               },
               {
                 badge: 'Préstamos Empresariales',
                 title: 'Préstamos Empresariales',
                 desc: 'Estrategias de financiamiento personalizadas para cada etapa de crecimiento empresarial, desde capital de trabajo hasta inversión de proyectos, apoyando completamente el desarrollo sostenible de la empresa.',
                 image: './c8d1237988527934727a1b29be7a6235.jpg',
-                clickTo: '/business-loan'
+                clickTo: '#/business-loan'
               }
             ]}
           />
@@ -88,7 +88,7 @@ export const Home = () => {
           <div className="text-center mt-10">
             <a 
               className="inline-flex items-center gap-2 px-8 py-3.5 border-2 border-navy-800 text-navy-800 rounded-lg font-semibold hover:bg-navy-800 hover:text-white transition-all duration-300"
-              href="/services"
+              href="#/services"
             >
               Ver todos los servicios<i className="ri-arrow-right-line"></i>
             </a>
@@ -124,7 +124,7 @@ export const Home = () => {
               </p>
               <a 
                 className="inline-flex items-center gap-2 px-7 py-3.5 bg-gold-500 text-navy-900 rounded-lg font-semibold hover:bg-gold-400 transition-all duration-300"
-                href="/team"
+                href="#/team"
               >
                 Conozca a nuestro equipo<i className="ri-arrow-right-line"></i>
               </a>
@@ -196,7 +196,7 @@ export const Home = () => {
               </div>
               <a 
                 className="inline-flex items-center gap-2 px-7 py-3.5 bg-navy-800 text-white rounded-lg font-semibold hover:bg-navy-700 transition-all duration-300"
-                href="/technology"
+                href="#/technology"
               >
                 Explore Nuestras Capacidades Tecnológicas<i className="ri-arrow-right-line"></i>
               </a>
@@ -217,7 +217,7 @@ export const Home = () => {
             
             <a 
               className="px-9 py-4 border border-white/30 text-white rounded-lg font-medium hover:border-gold-400 hover:text-gold-400 transition-all duration-300"
-              href="/knowledge"
+              href="#/knowledge"
             >
               Conozca Educación Financiera
             </a>

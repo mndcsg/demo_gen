@@ -3,18 +3,18 @@ import React from 'react';
 export const Footer = () => {
   const footerLinks = {
     services: [
-      { name: 'Visión General de Servicios', url: '/services' },
-      { name: 'Préstamos Personales', url: '/personal-loan' },
-      { name: 'Préstamos Empresariales', url: '/business-loan' },
+      { name: 'Visión General de Servicios', url: '#/services' },
+      { name: 'Préstamos Personales', url: '#/personal-loan' },
+      { name: 'Préstamos Empresariales', url: '#/business-loan' },
     ],
     about: [
-      { name: 'Presentación de Marca', url: '/' },
-      { name: 'Equipo Directivo', url: '/team' },
-      { name: 'Tecnología Innovadora', url: '/technology' },
-      { name: 'Responsabilidad Social', url: '/responsibility' },
+      { name: 'Presentación de Marca', url: '#/' },
+      { name: 'Equipo Directivo', url: '#/team' },
+      { name: 'Tecnología Innovadora', url: '#/technology' },
+      { name: 'Responsabilidad Social', url: '#/responsibility' },
     ],
     news: [
-      { name: 'Educación Financiera', url: '/knowledge' },
+      { name: 'Educación Financiera', url: '#/knowledge' },
    
     ],
   };
