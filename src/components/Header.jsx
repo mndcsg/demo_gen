@@ -67,7 +67,7 @@ export const Header = ({ currentPage = 'home' }) => {
               
               {/* Dropdown Menu */}
               {item.hasDropdown && servicesDropdownOpen && (
-                <div className="absolute top-full left-0 mt-2 w-56 bg-navy-900 border border-white/10 rounded-lg shadow-xl overflow-hidden">
+                <div className="absolute top-full left-0 mt-0 w-56 bg-navy-900 border border-white/10 rounded-lg shadow-xl overflow-hidden">
                   <div className="py-2">
                     {item.children.map((child) => (
                       <a
